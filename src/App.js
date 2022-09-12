@@ -1,9 +1,9 @@
 import './App.css';
-import { CustomNavbar } from '../../landing-page/src/components/CustomNavbar';
+import  CustomNavbar  from './CustomNavbar/CustomNavbar';
 
 function App() {
   return (
-    <CustomNavbar />
+      <CustomNavbar />
 
   );
 }
