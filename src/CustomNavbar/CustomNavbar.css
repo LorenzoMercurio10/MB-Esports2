@@ -1,0 +1,74 @@
+.navbar {
+    border-bottom: 8px solid;
+    padding-bottom: 0px;
+    color: #00bf55;
+}
+
+.navbar-brand {
+    margin-left: 32px;
+}
+
+.home {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.home:hover {
+    outline: 1px solid #00bf55;
+    font-weight: 900;
+    color: white;
+    font-size: 26px;
+}
+
+.about {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-left: 20px;
+}
+
+.about:hover {
+    outline: 1px solid #00bf55;
+    font-weight: 900;
+    color: white;
+    font-size: 26px;
+}
+
+.teams {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-left: 20px;
+}
+
+.teams:hover {
+    outline: 1px solid #00bf55;
+    font-weight: 900;
+    color: white;
+    font-size: 26px;
+}
+
+.contact {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-left: 20px;
+}
+
+.contact:hover {
+    outline: 1px solid #00bf55;
+    font-weight: 1000;
+    color: white;
+    font-size: 26px;
+}
+
+.socials {
+    position: absolute;
+    right: 45px;
+}

@@ -1,35 +1,37 @@
-import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import './CustomNavbar.css';
 
 function CustomNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">GG</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
+    <Navbar className="navbar" bg="black" expand="lg" variant="dark">
+      <Navbar.Brand href="#home"><img src="img/logo_navbar.png" alt="logo_navbar" height="88" width="282"></img></Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav>
+          <Nav.Link href="#home" className="home" >HOME</Nav.Link>
+          <Nav.Link href="#about" className="about">ABOUT</Nav.Link>
+          <Nav.Link href="#teams" className="teams">TEAMS</Nav.Link>
+          <Nav.Link href="#contact" className="contact">CONTACT</Nav.Link>
+        </Nav>
+        <Nav className="socials">
+          <Nav.Link href="https://www.instagram.com/king___esport/" target="_blank" className="instagram">
+            <img src="img/ig.png" alt="instagram" height="13" width="17"></img>
+          </Nav.Link>
+          <Nav.Link href="https://twitter.com/king___esport" target="_blank" className="twitter">
+            <img src="img/twitter.png" alt="twitter" height="13" width="17"></img>
+          </Nav.Link>
+          <Nav.Link href="https://www.twitch.tv/cerbero_podcast" target="_blank" className="twitch">
+            <img src="img/twitch.png" alt="twitch" height="13" width="17"></img>
+          </Nav.Link>
+          <Nav.Link href="https://www.tiktok.com/@alessialanza" target="_blank" className="tiktok">
+            <img src="img/tiktok.png" alt="tiktok" height="13" width="17"></img>
+          </Nav.Link>
+        </Nav>
+    </Navbar.Collapse>
     </Navbar>
   );
-}
+} 
 
 export default CustomNavbar;
