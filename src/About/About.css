@@ -1,0 +1,48 @@
+.about-background {
+  position: relative;
+  top: 114px;
+}
+
+.about-text {
+  position: absolute;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  margin-left: 200px;
+  margin-right: 999px;
+  color: white;
+  display: block;
+  top: 200px;
+  z-index: 2;
+}
+
+.about-header {
+  font-size: 58px;
+  font-weight: bold;
+  color: #00bf55;
+}
+
+.mb-esports {
+  color: #00bf55;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.mb-esports {
+  color: #00bf55;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.fifa-23 {
+  color: #00bf55;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.rocket-league {
+  color: #00bf55;
+  font-weight: bold;
+  font-size: 28px;
+}

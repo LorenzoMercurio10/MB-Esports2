@@ -1,0 +1,27 @@
+.contact-block {
+    position: relative;
+}
+
+.contact-text {
+    position: absolute;
+    font-family: 'Montserrat';
+    color: white;
+    top: 150px;
+    left: 200px;
+}
+
+.contact-header {
+    font-size: 68px;
+    color: #00bf55;
+    font-weight: bold;
+}
+
+.contact-info {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.mail {
+    font-size: 24px;
+    font-weight: 200;
+}

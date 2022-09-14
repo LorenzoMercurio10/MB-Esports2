@@ -1,7 +1,10 @@
 .navbar {
+    position: fixed;
     border-bottom: 8px solid;
     padding-bottom: 0px;
     color: #00bf55;
+    width: -webkit-fill-available;
+    z-index: 99;
 }
 
 .navbar-brand {
@@ -70,5 +73,7 @@
 
 .socials {
     position: absolute;
-    right: 45px;
+    display: flex;
+    right: 20px;
+    bottom: 30px;
 }
