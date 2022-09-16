@@ -5,7 +5,7 @@ function About() {
     <>
         <section id="about">
             <div className="about-background">
-                <img className="about-image-background" src="img/sfondo2.jpg" alt="about-background" width="100%"></img>
+                <img className="about-image-background" src="img/sfondoabout.jpg" alt="about-background" width="100%"></img>
                 <div className="about-text">
                     <h1 className="about-header">ABOUT</h1>
                     <p><span class="mb-esports">MB Esport</span> nasce dal desiderio di congiungere il futuro col passato, rimarcando una territorialità fortemente storica come quella di Monza e della Brianza, pronta per affacciarsi al futuro del mondo dell’intrattenimento competitivo elettronico.</p>

@@ -19,19 +19,19 @@ function CustomNavbar() {
           </Nav>
           <Nav>
             <div className="socials">
-            <Nav.Link href="https://www.instagram.com/king___esport/" target="_blank" className="instagram">
-              <img src="img/ig.png" alt="instagram" height="17" width="17"></img>
-            </Nav.Link>
-            <Nav.Link href="https://twitter.com/king___esport" target="_blank" className="twitter">
-              <img src="img/twitter.png" alt="twitter" height="17" width="17"></img>
-            </Nav.Link>
-            <Nav.Link href="https://www.twitch.tv/cerbero_podcast" target="_blank" className="twitch">
-              <img src="img/twitch.png" alt="twitch" height="17" width="17"></img>
-            </Nav.Link>
-            <Nav.Link href="https://www.tiktok.com/@alessialanza" target="_blank" className="tiktok">
-              <img src="img/tiktok.png" alt="tiktok" height="17" width="17"></img>
-            </Nav.Link>
-          </div>
+              <Nav.Link href="https://www.instagram.com/mb__esport/" target="_blank" className="instagram">
+                <img src="img/ig.png" alt="instagram" height="17" width="17"></img>
+              </Nav.Link>
+              <Nav.Link href="https://twitter.com/mb__esport" target="_blank" className="twitter">
+                <img src="img/twitter.png" alt="twitter" height="17" width="17"></img>
+              </Nav.Link>
+              <Nav.Link href="https://www.twitch.tv/cerbero_podcast" target="_blank" className="twitch">
+                <img src="img/twitch.png" alt="twitch" height="17" width="17"></img>
+              </Nav.Link>
+              <Nav.Link href="https://www.tiktok.com/@alessialanza" target="_blank" className="tiktok">
+                <img src="img/tiktok.png" alt="tiktok" height="17" width="17"></img>
+              </Nav.Link>
+            </div>
       </Nav>
 
     </Navbar.Collapse>
