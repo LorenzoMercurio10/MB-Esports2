@@ -20,7 +20,7 @@ function CustomNavbar() {
           <Nav>
             <div className="socials">
               <Nav.Link href="https://www.instagram.com/mb__esport/" target="_blank" className="instagram">
-                <img src="img/ig.png" alt="instagram" height="17" width="17"></img>
+                <img src="img/ig.png" alt="instagram" height="17" width="19"></img>
               </Nav.Link>
               <Nav.Link href="https://twitter.com/mb__esport" target="_blank" className="twitter">
                 <img src="img/twitter.png" alt="twitter" height="17" width="17"></img>

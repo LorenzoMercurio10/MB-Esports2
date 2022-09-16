@@ -1,33 +1,40 @@
 import './Teams.css'
 import Nav from 'react-bootstrap/Nav';
+import { useState } from 'react';
 
 function Teams() {
-    return (
 
+    const [rocketLeague, setrocketLeague] = useState(false)
+
+    return (
         <>
         <section id="teams">
             <div className="teams-block">
                 <img className="teams-image-background" src="img/sfondoteams.jpg" alt="about-background" width="100%"></img>
                 <div className="teams-nav">
-                    <p className="team-header" >TEAMS</p>
+                    <p className="team-header">TEAMS</p>
                         <Nav className="justify-content-center">
                             <Nav.Item>
-                                <Nav.Link className="team-fifa" href="#fifa">
-                                    <img className="foto-white-fifa" src="img/fifa_white.png"  width="200" height="200" />
-                                    <img className="foto-green-fifa" src="img/fifa_verde.png"  width="200" height="200" />
+                                <Nav.Link className="team-fifa">
+                                    <div onClick={() => setrocketLeague(false)}>
+                                        <img className="foto-white-fifa" src="img/fifa_white.png"  width="200" height="200" />
+                                    </div>
+                                        {!rocketLeague && <img className="foto-green-fifa" src="img/fifa_verde.png"  width="200" height="200" />}
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link className="team-rocket-league" href="#rocket-league">
-                                    <img className="foto-rocket-league" src="img/rocket_bianco.png"  width="200" height="200" />
+                                <Nav.Link className="team-rocket-league">
+                                    <div onClick={() => setrocketLeague(true)}>
+                                        <img className="foto-bianca-rocket-league" src="img/rocket_bianco.png"  width="200" height="200" />
+                                    </div>
+                                        {rocketLeague && <img className="foto-verde-rocket-league" src="img/rocket_verde.png"  width="200" height="200" />}
                                 </Nav.Link>
                             </Nav.Item>
                         </Nav>
                 </div>
             </div>
         </section>
-        <section id="#fifa">
-            <article className="fifa-players">
+            <article className={!rocketLeague ? 'fifa-players' : 'no-visibility'}>
                 <div className="card-logo1">
                     <img className="player1-fifa" src="img/omino_stilizzato.png" alt="player-1" width="350" height="350"></img>
                     <div className="nick-player1-fifa">
@@ -55,7 +62,7 @@ function Teams() {
                     <div className="nick-player1-fifa">
                         <span className="name-player1-fifa">Nick-Player 2</span>
                         <span className="role-player1-fifa">Ruolo</span>
-                        <span className="real-name-player1-fifa">Nome e Cognome</span>
+                        <span className="real-name-player2-fifa">Nome e Cognome</span>
                         <div className="socials-player1-fifa">
                             <Nav.Link href="https://www.instagram.com/mb__esport/" target="_blank" className="player-instagram">
                                 <img src="img/ig.png" alt="instagram" height="23" width="25"></img>
@@ -73,9 +80,7 @@ function Teams() {
                     </div>
                 </div>
             </article>
-        </section>
-        <section id="#rocket-league">
-            <article className="rocket-league-players">
+            <article className={rocketLeague ? 'rocket-league-players' : 'no-visibility'}>
                 <div className="card-logo1">
                     <img className="player1-rocket-league" src="img/omino_stilizzato.png" alt="player-1" width="350" height="350"></img>
                     <div className="nick-player1-rocket-league">
@@ -166,7 +171,6 @@ function Teams() {
                     </div>
                 </div>
             </article>
-        </section>
         </>
     );
 }
