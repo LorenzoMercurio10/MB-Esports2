@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './CustomNavbar.css';
@@ -12,10 +13,10 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#home" className="home" >HOME</Nav.Link>
-            <Nav.Link href="#about" className="about">ABOUT</Nav.Link>
-            <Nav.Link href="#teams" className="teams">TEAMS</Nav.Link>
-            <Nav.Link href="#contact" className="contact">CONTACT</Nav.Link>
+              <Nav.Link href="#home"   className="home">HOME</Nav.Link>
+              <Nav.Link href="#about" className="about">ABOUT</Nav.Link>
+              <Nav.Link href="#teams" className="teams">TEAMS</Nav.Link>
+              <Nav.Link href="#contact" className="contact">CONTACT</Nav.Link>
           </Nav>
           <Nav>
             <div className="socials">
@@ -33,7 +34,6 @@ function CustomNavbar() {
               </Nav.Link>
             </div>
       </Nav>
-
     </Navbar.Collapse>
     </Navbar>
     </div>

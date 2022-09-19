@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function Teams() {
 
-    const [rocketLeague, setrocketLeague] = useState(false)
+    const [rocketLeague, setRocketLeague] = useState(false);
 
     return (
         <>
@@ -16,18 +16,18 @@ function Teams() {
                         <Nav className="justify-content-center">
                             <Nav.Item>
                                 <Nav.Link className="team-fifa">
-                                    <div onClick={() => setrocketLeague(false)}>
-                                        <img className="foto-white-fifa" src="img/fifa_white.png"  width="200" height="200" />
+                                    <div onClick={() => setRocketLeague(false)}>
+                                        <img className="foto-white-fifa" src="img/fifa_white.png"  alt="fotobiancafifa"  width="200" height="200" />
                                     </div>
-                                        {!rocketLeague && <img className="foto-green-fifa" src="img/fifa_verde.png"  width="200" height="200" />}
+                                        {!rocketLeague && <img className="foto-green-fifa" src="img/fifa_verde.png" alt="fotoverdefifa" width="200" height="200" />}
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link className="team-rocket-league">
-                                    <div onClick={() => setrocketLeague(true)}>
-                                        <img className="foto-bianca-rocket-league" src="img/rocket_bianco.png"  width="200" height="200" />
+                                    <div onClick={() => setRocketLeague(true)}>
+                                        <img className="foto-bianca-rocket-league" src="img/rocket_bianco.png" alt="fotobiancarocket" width="200" height="200" />
                                     </div>
-                                        {rocketLeague && <img className="foto-verde-rocket-league" src="img/rocket_verde.png"  width="200" height="200" />}
+                                        {rocketLeague && <img className="foto-verde-rocket-league" src="img/rocket_verde.png"  alt="fotoverderockdet" width="200" height="200" />}
                                 </Nav.Link>
                             </Nav.Item>
                         </Nav>

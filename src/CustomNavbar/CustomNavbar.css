@@ -26,11 +26,11 @@
     font-size: 26px;
 }
 
-.home:active {
+.active {
     outline: 1px solid #00bf55;
     font-weight: 900;
     color: white;
-    font-size: 26px; 
+    font-size: 26px;
 }
 
 .about {
