@@ -26,3 +26,17 @@
     font-size: 24px;
     font-weight: 200;
 }
+
+.form-contact {
+    position: absolute;
+    left: 60%;
+    top: 425%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 130%;
+}
+
+.button-contact{
+    background-color: #00bf55;
+    border: none;
+}
