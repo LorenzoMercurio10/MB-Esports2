@@ -1,6 +1,7 @@
 .teams-block {
   position: relative;
   top: 114px;
+  width: 100%;
 }
 
 .teams-nav {
@@ -26,6 +27,26 @@
   transition: opacity 1.5s;
   visibility: visible;
   opacity: 1;
+}
+
+.nick-player1-fifa {
+  width: 100%;
+}
+
+.nick-player1-rocket-league {
+  width: 100%;
+}
+
+.nick-player2-rocket-league {
+  width: 100%;
+}
+
+.nick-player3-rocket-league {
+  width: 100%;
+}
+
+.nick-player4-rocket-league {
+  width: 100%;
 }
 
 .team-header {

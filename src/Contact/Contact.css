@@ -1,6 +1,7 @@
 .contact-block {
     position: relative;
     top: 114px;
+    width: 100%;
 }
 
 .contact-text {
@@ -24,16 +25,16 @@
 
 .mail {
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 200px;
 }
 
 .form-contact {
     position: absolute;
-    left: 60%;
-    top: 425%;
+    left: 1070px;
+    top: 3955px;
     color: white;
     font-family: 'Montserrat';
-    font-size: 130%;
+    font-weight: bolder;
 }
 
 .button-contact{

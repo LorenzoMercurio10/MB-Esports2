@@ -5,6 +5,7 @@
     color: #00bf55;
     width: -webkit-fill-available;
     z-index: 99;
+    
 }
 
 .navbar-brand {
@@ -15,35 +16,36 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 300%;
     margin-left: 20px;
 }
 
 .home:hover {
     outline: 1px solid #00bf55;
-    font-weight: 900;
+    font-weight: 900%;
     color: white;
     font-size: 26px;
 }
 
 .active {
     outline: 1px solid #00bf55;
-    font-weight: 900;
+    font-weight: 900%;
     color: white;
     font-size: 26px;
+    width: 100%;
 }
 
 .about {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300px;
+    font-weight: 300%;
     margin-left: 20px;
 }
 
 .about:hover {
     outline: 1px solid #00bf55;
-    font-weight: 900;
+    font-weight: 900%;
     color: white;
     font-size: 26px;
 }
@@ -52,13 +54,13 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300px;
+    font-weight: 300%;
     margin-left: 20px;
 }
 
 .teams:hover {
     outline: 1px solid #00bf55;
-    font-weight: 900;
+    font-weight: 900%;
     color: white;
     font-size: 26px;
 }
@@ -73,7 +75,7 @@
 
 .contact:hover {
     outline: 1px solid #00bf55;
-    font-weight: 1000;
+    font-weight: 1000%;
     color: white;
     font-size: 26px;
 }

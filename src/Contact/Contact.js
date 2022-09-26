@@ -17,20 +17,22 @@ function Contact() {
                 </div>
             </div>
         </section>
-    <Form className="form-contact">
+    <Form className="form-contact" action="https://formsubmit.co/lorenzo.mercurio@outlook.it" method="POST">
+        <input type="hidden" name="_captcha" value="false" />
+        <Form.Group className="mb-3" controlId="formBasicName">
+            <Form.Label>Writer</Form.Label>
+                <Form.Control type="text" name="Writer" placeholder="Write here your name" style={{width:'225%'}} required/>
+        </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-            <Form.Text className="text-muted">
-                Scrivi qui la mail al quale vorrai essere ricontattato
-            </Form.Text>
+                <Form.Control type="text" name="Email Address" placeholder="Write here your email address" style={{width:'225%'}} required/>
         </Form.Group>
-        <Form.Group className="mb-2" controlId="formBasicPassword">
-            <Form.Label>Messaggio:</Form.Label>
-                <Form.Control type="password" placeholder="Componi il tuo messaggio" />
+        <Form.Group className="mb-2" controlId="formBasicText">
+            <Form.Label>Message</Form.Label>
+                <Form.Control type="text" name="Message" placeholder="Write here your message" style={{width:'225%'}} required/>
         </Form.Group>
         <Form.Group className="mb-4" controlId="formBasicCheckbox">
-            <Form.Check type="checkbox" label="Check me out" />
+            <Form.Check type="checkbox" label="Check me out" required/>
         </Form.Group>
         <Button className="button-contact" variant="primary" type="submit">
             Submit

@@ -1,26 +1,27 @@
 .about-background {
   position: relative;
   top: 114px;
+  width: 100%;
 }
 
 .about-text {
   position: absolute;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 32px;
   margin-left: 200px;
   margin-right: 999px;
   color: white;
-  display: block;
-  top: 200px;
+  top: 120px;
   z-index: 2;
+  width: 40%;
 }
 
 .about-header {
   font-size: 58px;
   font-weight: bold;
   color: #00bf55;
+  width: 100%;
 }
 
 .mb-esports {
@@ -44,5 +45,4 @@
 .rocket-league {
   color: #00bf55;
   font-weight: bold;
-  font-size: 28px;
 }
