@@ -1,37 +1,59 @@
-.contact-block {
-    position: relative;
-    top: 114px;
-    width: 100%;
+.contact-background {
+    background-image: url(../../public/img/sfondocontact.jpg);
+    padding: 300px 20px 300px 400px;
+    background-size: contain;
+    background-position: center;
 }
 
 .contact-text {
-    position: absolute;
     font-family: 'Montserrat';
     color: white;
-    top: 150px;
-    left: 200px;
 }
 
 .contact-header {
-    font-size: 68px;
+    font-size: calc(61px + 0.390625vw);
     color: #00bf55;
     font-weight: bold;
 }
 
+
 .contact-info {
-    font-size: 42px;
+    font-size: calc(40px + 0.390625vw);
     font-weight: bold;
 }
 
+.contact-socials {
+    padding-top: 15px;
+}
+
+.contact-policy {
+    padding-top: 15px;
+    color: white;
+    
+}
+
+.instagram {
+    padding-right: 10px;
+}
+
+.twitter {
+    padding-right: 10px;
+}
+
+.twitch {
+    padding-right: 10px;
+}
+
+.tiktok {
+    padding-right: 10px;
+}
+
 .mail {
-    font-size: 24px;
-    font-weight: 200px;
+    font-size: calc(20px + 0.390625vw);
+    font-weight: 300;
 }
 
 .form-contact {
-    position: absolute;
-    left: 1070px;
-    top: 3955px;
     color: white;
     font-family: 'Montserrat';
     font-weight: bolder;
@@ -41,3 +63,59 @@
     background-color: #00bf55;
     border: none;
 }
+
+@media(max-width:768px) {
+    .contact-background {
+        padding: 100px 20px 100px 100px;
+        background-size: contain;
+        background-position: center;
+    }
+    .form-contact {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bolder;
+        padding-top: 100px;
+    }
+  } 
+  
+  @media(min-width:768px) and (max-width:992px) {
+    .contact-background {
+        padding: 100px 20px 100px 100px;
+        background-size: contain;
+        background-position: center;
+    }
+    .form-contact {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bolder;
+        padding-top: 100px;
+    }
+    } 
+  
+  @media(min-width:992px) and (max-width:1200px) {
+    .contact-background {
+        padding: 100px 20px 100px 100px;
+        background-size: contain;
+        background-position: center;
+    }
+    .form-contact {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bolder;
+        padding-top: 100px;
+    }
+  }
+  
+  @media(min-width:1200px) and (max-width:1500px) {
+    .contact-background {
+        padding: 100px 20px 100px 100px;
+        background-size: contain;
+        background-position: center;
+    }
+    .form-contact {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bolder;
+        padding-top: 100px;
+    }
+  }

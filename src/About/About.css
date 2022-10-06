@@ -1,48 +1,66 @@
 .about-background {
-  position: relative;
-  top: 114px;
-  width: 100%;
+  background-image: url(../../public/img/sfondo_about.png);
+  padding: 35px 50px 0px 0px;
+  background-size: contain;
 }
 
 .about-text {
-  position: absolute;
-  color: white;
+  padding: 232px 400px 370px 136px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
-  margin-left: 200px;
-  margin-right: 999px;
+  font-size: calc(17px + 0.390625vw);
   color: white;
-  top: 120px;
-  z-index: 2;
-  width: 40%;
+} 
+@media(max-width:768px) {
+  .about-text {
+    padding: 200px 200px 185px 68px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(17px + 0.390625vw);
+    color: white;
+  } 
+}
+@media(min-width:768px) and (max-width:992px) {
+  .about-text {
+    padding: 200px 200px 185px 68px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(17px + 0.390625vw);
+    color: white;
+  } 
+}
+@media(min-width:992px) and (max-width:1200px) {
+  .about-text {
+    padding: 200px 200px 185px 68px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(17px + 0.390625vw);
+    color: white;
+  } 
 }
 
 .about-header {
-  font-size: 58px;
   font-weight: bold;
   color: #00bf55;
-  width: 100%;
+  font-size: calc(40px + 0.390625vw);
+  }
+.mb-esports {
+  color: #00bf55;
+  font-weight: bold;
+  font-size: calc(21px + 0.390625vw);
 }
 
 .mb-esports {
   color: #00bf55;
   font-weight: bold;
-  font-size: 28px;
-}
-
-.mb-esports {
-  color: #00bf55;
-  font-weight: bold;
-  font-size: 28px;
+  font-size: calc(21px + 0.390625vw);
 }
 
 .fifa-23 {
   color: #00bf55;
-  font-weight: bold;
-  font-size: 28px;
+  font-weight: bold;  
+  font-size: calc(21px + 0.390625vw);
 }
 
 .rocket-league {
   color: #00bf55;
   font-weight: bold;
+  font-size: calc(21px + 0.390625vw);
 }
+

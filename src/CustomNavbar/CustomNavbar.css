@@ -16,36 +16,35 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300%;
+    font-weight: light;
     margin-left: 20px;
 }
 
 .home:hover {
     outline: 1px solid #00bf55;
-    font-weight: 900%;
+    font-weight: bolder;
     color: white;
     font-size: 26px;
 }
 
 .active {
     outline: 1px solid #00bf55;
-    font-weight: 900%;
+    font-weight: bolder;
     color: white;
     font-size: 26px;
-    width: 100%;
 }
 
 .about {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300%;
+    font-weight: light;
     margin-left: 20px;
 }
 
 .about:hover {
     outline: 1px solid #00bf55;
-    font-weight: 900%;
+    font-weight: bolder;
     color: white;
     font-size: 26px;
 }
@@ -54,13 +53,13 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300%;
+    font-weight: light;
     margin-left: 20px;
 }
 
 .teams:hover {
     outline: 1px solid #00bf55;
-    font-weight: 900%;
+    font-weight: bolder;
     color: white;
     font-size: 26px;
 }
@@ -69,13 +68,13 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 300px;
+    font-weight: light;
     margin-left: 20px;
 }
 
 .contact:hover {
     outline: 1px solid #00bf55;
-    font-weight: 1000%;
+    font-weight: bolder;
     color: white;
     font-size: 26px;
 }

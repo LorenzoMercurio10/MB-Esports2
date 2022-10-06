@@ -12,7 +12,7 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-              <Nav.Link href="#home"   className="home">HOME</Nav.Link>
+              <Nav.Link href="#home" className="home">HOME</Nav.Link>
               <Nav.Link href="#about" className="about">ABOUT</Nav.Link>
               <Nav.Link href="#teams" className="teams">TEAMS</Nav.Link>
               <Nav.Link href="#contact" className="contact">CONTACT</Nav.Link>
