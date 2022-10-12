@@ -21,17 +21,17 @@ function Contact() {
                         <Nav.Link href="https://twitter.com/mb__esport" target="_blank" className="twitter">
                             <img src="img/twitter.png" alt="twitter" height="25" width="25"></img>
                         </Nav.Link>
-                        <Nav.Link href="https://www.twitch.tv/cerbero_podcast" target="_blank" className="twitch">
+                        <Nav.Link href="https://www.twitch.tv/mb_esport" target="_blank" className="twitch">
                             <img src="img/twitch.png" alt="twitch" height="25" width="25"></img>
                         </Nav.Link>
-                        <Nav.Link href="https://www.tiktok.com/@alessialanza" target="_blank" className="tiktok">
+                        <Nav.Link href="https://www.tiktok.com/@mb_esport" target="_blank" className="tiktok">
                             <img src="img/tiktok.png" alt="tiktok" height="25" width="25"></img>
                         </Nav.Link>
                     </div> 
                     <div className="col-xs-12 col-md-6 contact-policy">
-                        <a href="https://docs.google.com/document/d/1zuHQ4WkFsiWA1raMRjK3BHBl99JdrFnmKAYUEeDID7U/edit?usp=sharing0">Privacy Policy</a>
+                        <a className="policy" href="https://docs.google.com/document/d/1zuHQ4WkFsiWA1raMRjK3BHBl99JdrFnmKAYUEeDID7U/edit?usp=sharing0">Privacy Policy</a>
                         &nbsp;
-                        <a href="https://docs.google.com/document/d/1KMh72mMUBTtNDBoRmrFYzwKwz8BkBi_GQS5IpmBw9pc/edit?usp=sharing">Cookie Policy</a>
+                        <a className="policy" href="https://docs.google.com/document/d/1KMh72mMUBTtNDBoRmrFYzwKwz8BkBi_GQS5IpmBw9pc/edit?usp=sharing">Cookie Policy</a>
                     </div> 
                     </div> 
                      

@@ -33,7 +33,7 @@ function Teams() {
                 </div>
                 <article className={!rocketLeague ? 'fifa-players' : 'no-visibility'}>
                     <div className="row justify-content-center fifa-card">
-                        <div className="col-xs-12 col-sm-12 col-md-6 card-logo">
+                        <div className="col-xs-12 col-sm-12 col-md-6 card-logo-fifa">
                             <img className="player1-fifa" src="img/frankie.png" alt="player-1" width="275" height="275"></img>
                             <div className="nick-player1-fifa">
                                 <span className="name-player1-fifa">Frankievai</span>
@@ -48,7 +48,7 @@ function Teams() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-6 card-logo">
+                        <div className="col-xs-12 col-sm-12 col-md-6 card-logo-fifa">
                             <img className="player2-fifa" src="img/lmatty.png" alt="player-2" width="275" height="275"></img>
                             <div className="nick-player1-fifa">
                                 <span className="name-player1-fifa">LMatti10</span>

@@ -1,7 +1,8 @@
 .about-background {
-  background-image: url(../../public/img/sfondo_about.png);
+  background-image: url(../../public/img/sfondo_sito_1.jpg);
   padding: 35px 50px 0px 0px;
   background-size: contain;
+background-size: cover;
 }
 
 .about-text {

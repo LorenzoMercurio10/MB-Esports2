@@ -28,8 +28,16 @@
 
 .contact-policy {
     padding-top: 15px;
+}
+
+.policy {
+    color: #00bf55;;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.policy:hover {
     color: white;
-    
 }
 
 .instagram {

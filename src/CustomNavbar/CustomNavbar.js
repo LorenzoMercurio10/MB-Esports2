@@ -25,10 +25,10 @@ function CustomNavbar() {
               <Nav.Link href="https://twitter.com/mb__esport" target="_blank" className="twitter">
                 <img src="img/twitter.png" alt="twitter" height="17" width="17"></img>
               </Nav.Link>
-              <Nav.Link href="https://www.twitch.tv/cerbero_podcast" target="_blank" className="twitch">
+              <Nav.Link href="https://www.twitch.tv/mb_esport" target="_blank" className="twitch">
                 <img src="img/twitch.png" alt="twitch" height="17" width="17"></img>
               </Nav.Link>
-              <Nav.Link href="https://www.tiktok.com/@alessialanza" target="_blank" className="tiktok">
+              <Nav.Link href="https://www.tiktok.com/@mb_esport" target="_blank" className="tiktok">
                 <img src="img/tiktok.png" alt="tiktok" height="17" width="17"></img>
               </Nav.Link>
             </div>

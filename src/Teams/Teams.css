@@ -1,9 +1,9 @@
 .teams-block {
-  background-image: url(../../public/img/sfondoteams.jpg);
+  background-image: url(../../public/img/sfondo_sito_1.jpg);
   padding: 200px 100px 200px 100px;
   background-size: contain;
   background-position: center;
-
+  background-size: cover;
 }
 
 .teams-nav {
@@ -61,6 +61,10 @@
 
 .card-logo {
   padding: 100px 0px 120px 360px;
+}
+
+.card-logo-fifa {
+  padding: 100px 200px 120px 310px;
 }
 
 @media(max-width:768px) {
