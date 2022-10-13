@@ -2,14 +2,17 @@ import './Video.css'
 
 function Video() {
     return ( 
-        <section id="home">
-            <div>
+        <>
+            <section id="home">
                 <div className="video ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/e-O-cDxHJ-0?&autoplay=1&mute=1&controls=0&loop=1" title="YouTube video" allowFullScreen></iframe>
+                    <video autoPlay={true} muted loop controls={false}>
+                        <source src="img/video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                    </video>    
                 </div>
-            </div>
-        </section>
+            </section> 
+        </>
     )
-} 
+}
 
 export default Video;

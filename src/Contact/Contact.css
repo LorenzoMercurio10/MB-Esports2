@@ -74,7 +74,7 @@
 
 @media(max-width:768px) {
     .contact-background {
-        padding: 100px 20px 100px 100px;
+        padding: 100px 20px 100px 60px;
         background-size: contain;
         background-position: center;
     }
@@ -83,6 +83,12 @@
         font-family: 'Montserrat';
         font-weight: bolder;
         padding-top: 100px;
+    }
+    .contact-header {
+        font-size: 47px;
+    }
+    .contact-info {
+        font-size: 35px;
     }
   } 
   

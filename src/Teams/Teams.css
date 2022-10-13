@@ -69,15 +69,31 @@
 
 @media(max-width:768px) {
   .card-logo {
-    padding: 100px 0px 0px 50px;
+    padding: 60px 0px 0px 70px;
+    overflow-x: hidden;
   }
+
   .card3-4 {
-    padding: 50px 0px 0px 0px; 
+    padding: 50px 0px 0px 10px; 
+    overflow-x: hidden;
   }
+
   .teams-nav {
     font-family: 'Montserrat';
     color: white;
-    padding: 0px 0px 0px 0px;
+    padding: 36px 0px 0px 0px;
+  }
+
+  .teams-block {
+    padding: 150px 0px 100px 0px;
+  }
+
+  .card-logo-fifa {
+    padding: 100px 0px 0px 70px;
+    overflow-x: hidden;
+  }
+  .card-logo-rocket {
+    overflow-x: hidden;
   }
 } 
 
@@ -86,26 +102,27 @@
     padding: 100px 0px 120px 60px;
   }
   .card3-4 {
-    padding: 50px 0px 0px 0px; 
+    padding: 50px 0px 0px 10px; 
   }
-  } 
+} 
 
 @media(min-width:992px) and (max-width:1200px) {
   .card-logo {
-    padding: 100px 0px 120px 100px;
+    padding: 100px 0px 120px 60px;
   }
   .card3-4 {
-    padding: 50px 10px 120px 100px 
+    padding: 50px 0px 0px 10px; 
   }
 }
 
 @media(min-width:1200px) and (max-width:1500px) {
   .card-logo {
-    padding: 100px 0px 120px 100px;
+    padding: 100px 0px 120px 60px;
   }
   .card3-4 {
-    padding: 50px 10px 120px 100px 
+    padding: 50px 0px 0px 10px; 
   }
+
 }
 
 .card-logo-rocket {
