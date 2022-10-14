@@ -5,7 +5,7 @@ function Video() {
         <>
             <section id="home">
                 <div className="video ratio ratio-16x9">
-                    <video autoPlay={true} muted loop controls={false}>
+                    <video autoPlay={true} muted controls={false} loop>
                         <source src="img/video.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                     </video>    
