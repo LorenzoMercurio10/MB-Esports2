@@ -2,11 +2,11 @@
   background-image: url(../../public/img/sfondo_sito_1.jpg);
   padding: 35px 50px 0px 0px;
   background-size: contain;
-background-size: cover;
+  background-size: cover;
 }
 
 .about-text {
-  padding: 232px 400px 370px 136px;
+  padding: 140px 200px 100px 136px;
   font-family: 'Montserrat', sans-serif;
   font-size: calc(17px + 0.390625vw);
   color: white;
@@ -33,6 +33,24 @@ background-size: cover;
 @media(min-width:992px) and (max-width:1200px) {
   .about-text {
     padding: 200px 10px 105px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(17px + 0.390625vw);
+    color: white;
+  } 
+}
+
+@media(min-width:1200px) and (max-width:1500px) {
+  .about-text {
+    padding: 200px 10px 105px 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(17px + 0.390625vw);
+    color: white;
+  } 
+}
+
+@media(min-width:1500px) and (max-width:1800px) {
+  .about-text {
+    padding: 200px 10px 105px 120px;
     font-family: 'Montserrat', sans-serif;
     font-size: calc(17px + 0.390625vw);
     color: white;

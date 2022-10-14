@@ -1,6 +1,6 @@
 .teams-block {
   background-image: url(../../public/img/sfondo_sito_1.jpg);
-  padding: 200px 100px 200px 100px;
+  padding: 140px 100px 50px 100px;
   background-size: contain;
   background-position: center;
   background-size: cover;
@@ -41,7 +41,7 @@
 }
 
 .card3-4 {
-  padding: 0px 300px 120px 500px;
+  padding: 0px 300px 60px 463px;
 }
 
 .foto-green-fifa {
@@ -60,7 +60,7 @@
 }
 
 .card-logo {
-  padding: 100px 0px 120px 360px;
+  padding: 100px 0px 120px 330px;
 }
 
 .card-logo-fifa {
@@ -117,13 +117,36 @@
 
 @media(min-width:1200px) and (max-width:1500px) {
   .card-logo {
-    padding: 100px 0px 120px 60px;
+    padding: 30px 0px 60px 190px;
   }
   .card3-4 {
-    padding: 50px 0px 0px 10px; 
+    padding: 50px 0px 60px 160px; 
+  }
+  .card-logo-fifa {
+    padding: 100px 0px 0px 210px;
+    overflow-x: hidden;
+  }
+}
+
+@media(min-width:1500px) and (max-width:1800px) {
+  .card-logo {
+    padding: 30px 0px 60px 210px;
+  }
+  .card3-4 {
+    padding: 30px 0px 60px 170px; 
+  }
+  .card-logo-fifa {
+    padding: 100px 0px 75px 210px;
+    overflow-x: hidden;
   }
 
+  .teams-nav {
+    font-family: 'Montserrat';
+    color: white;
+    padding: 0px 0px 0px 10px;
+  }
 }
+
 
 .card-logo-rocket {
   padding-left: 100px;

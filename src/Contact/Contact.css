@@ -122,7 +122,21 @@
   
   @media(min-width:1200px) and (max-width:1500px) {
     .contact-background {
-        padding: 100px 20px 100px 100px;
+        padding: 100px 20px 100px 230px;
+        background-size: contain;
+        background-position: center;
+    }
+    .form-contact {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bolder;
+        padding-top: 100px;
+    }
+  }
+
+  @media(min-width:1500px) and (max-width:1800px) {
+    .contact-background {
+        padding: 150px 20px 100px 250px;
         background-size: contain;
         background-position: center;
     }
